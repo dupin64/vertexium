@@ -66,7 +66,7 @@
         <commons-codec.version>1.8</commons-codec.version>
         <jcommander.version>1.35</jcommander.version>
         <cache2k.version>0.21.1</cache2k.version>
-        <google-guava.version>17.0</google-guava.version>
+        <google-guava.version>18.0</google-guava.version>
         <commons-lang3.version>3.1</commons-lang3.version>
         <apache.curator.version>2.8.0</apache.curator.version>
         <recurrent.version>0.3.2</recurrent.version>
@@ -83,8 +83,6 @@
         <maven.plugin.jarjar.version>1.9</maven.plugin.jarjar.version>
         <maven.plugin.deploy.version>2.8.2</maven.plugin.deploy.version>
 
-        <!-- used by: elasticsearch -->
-        <elasticsearch.version>1.7.5</elasticsearch.version>
         <!-- used by: elasticsearch main for dynamic scripting, and test for boost formulas -->
         <groovy.version>2.4.5</groovy.version>
         <!-- used by: elasticsearch geo_shape type -->
@@ -369,6 +367,7 @@
         <module>blueprints-test</module>
 
         <module>elasticsearch-singledocument</module>
+        <module>elasticsearch2</module>
 
         <module>inmemory</module>
 
